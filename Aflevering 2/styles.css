@@ -1,0 +1,45 @@
+/* Her indstiller jeg skrifttypen samt baggrundsfarven på siden */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center; 
+    color: #555;
+}
+
+#album-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.album {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 250px; /* Dette sætter en fast bredde for kasserne */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.track-list {
+    display: none;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #007BFF; /* Dette giver knappen en blå farve */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Dette gør den blå knap mørkere blå når man hover over den */
+}
